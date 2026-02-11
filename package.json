@@ -1,0 +1,41 @@
+{
+  "name": "casc-cdn",
+  "version": "0.1.0",
+  "description": "A modern and minimal TypeScript library for downloading and extracting files from Blizzard's CASC (Content Addressable Storage Container) archives via CDN.",
+  "author": "Bogdan Tretyakov <trbogdan@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/BogdanTretyakov/casc-cdn",
+  "bugs": {
+    "url": "https://github.com/BogdanTretyakov/casc-cdn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogdanTretyakov/casc-cdn.git"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsdown",
+    "build:watch": "tsdown --watch"
+  },
+  "devDependencies": {
+    "@types/lz4": "^0.6.4",
+    "@types/node": "^24.0.3",
+    "tsdown": "^0.12.8",
+    "tsx": "^4.21.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "warcraft",
+    "casc",
+    "blizzard"
+  ],
+  "dependencies": {
+    "lz4": "^0.6.4"
+  }
+}
