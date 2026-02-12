@@ -1,6 +1,6 @@
 {
   "name": "casc-cdn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A modern and minimal TypeScript library for downloading and extracting files from Blizzard's CASC (Content Addressable Storage Container) archives via CDN.",
   "author": "Bogdan Tretyakov <trbogdan@gmail.com>",
   "license": "MIT",

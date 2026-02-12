@@ -20,6 +20,7 @@ interface Locale {
   ptBR: boolean;
   itIT: boolean;
   ptPT: boolean;
+  plPL: boolean;
 }
 
 export interface RootEntry {
@@ -252,6 +253,7 @@ export class RootFile {
       ptBR: false,
       itIT: false,
       ptPT: false,
+      plPL: false,
     };
 
     if (typeof localeFlag === 'string') {

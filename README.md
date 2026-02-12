@@ -160,13 +160,8 @@ if (soundEntry) {
   const fileData = await client.getFile(soundEntry.contentKey);
 
   if (fileData) {
-    // Parse the file content
-    const content = fileData.toString('utf8');
-    const lines = content.split('\n');
-
-    console.log(`File has ${lines.length} lines`);
-    console.log('First 10 lines:');
-    console.log(lines.slice(0, 10).join('\n'));
+    fs.writeFile('output.flac', fileData);
+    console.log(`File length ${fileData.length} bytes`);
   }
 }
 ```

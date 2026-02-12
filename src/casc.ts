@@ -197,6 +197,7 @@ export class CascClient {
       });
     } catch (e) {
       // Index loading failed
+      console.warn(`Failed to load archive index ${hash}`);
     }
   }
 
